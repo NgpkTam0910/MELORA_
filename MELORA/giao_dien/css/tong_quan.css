@@ -1,0 +1,291 @@
+
+/* CAU HINH CHUNG CHO WEBSITE MELORA */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font hệ thống phổ thông, hỗ trợ dấu tiếng Việt ổn định. */
+html, body, button, input, select, textarea, h1, h2, h3, h4, p, a, span, strong, small {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+body {
+    font-family: Arial,Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.thanh-thong-bao {
+    background-color: #f5dce3;
+    color: #8d5365;
+    text-align: center;
+    padding: 11px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+/* PHAN DAU TRANG */
+
+.dau-trang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 6%;
+    gap: 30px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    color: #bd7189;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+.logo p {
+    font-size: 10px;
+    color: #999999;
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
+
+.tim-kiem {
+    display: flex;
+    width: 40%;
+    border: 1px solid #e7c7d1;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.tim-kiem input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 13px 18px;
+    font-size: 13px;
+}
+
+.tim-kiem button {
+    border: none;
+    background-color: white;
+    color: #bd7189;
+    padding: 0 18px;
+    font-size: 17px;
+}
+
+.tien-ich {
+    display: flex;
+    gap: 25px;
+}
+
+.tien-ich a {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #805565;
+    font-size: 13px;
+}
+
+.tien-ich i {
+    font-size: 19px;
+    color: #bd7189;
+}
+
+/* THANH MENU */
+
+.thanh-menu {
+    background-color: #f8e9ee;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 17px;
+}
+
+.thanh-menu a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #805565;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.thanh-menu a:hover {
+    color: #d66f91;
+}
+
+/* TIEU DE CAC KHU VUC */
+
+.tieu-de {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.tieu-de p {
+    font-size: 11px;
+    color: #bd7189;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.tieu-de h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #805565;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+/* CHAN TRANG */
+
+.chan-trang {
+    background-color: #f9edf1;
+    padding: 50px 7%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.cot-chan-trang h2 {
+    color: #bd7189;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cot-chan-trang h3 {
+    font-size: 14px;
+    color: #805565;
+    margin-bottom: 20px;
+}
+
+.cot-chan-trang p,
+.cot-chan-trang a {
+    display: block;
+    color: #777777;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.ban-quyen {
+    background-color: #f5dce3;
+    text-align: center;
+    padding: 15px;
+    color: #805565;
+    font-size: 12px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+
+    .dau-trang {
+        flex-direction: column;
+    }
+
+    .tim-kiem {
+        width: 100%;
+    }
+
+    .thanh-menu {
+        gap: 18px;
+    }
+
+    .chan-trang {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* Font phổ thông, hiển thị dấu tiếng Việt nhất quán. */
+html,body,button,input,select,textarea,h1,h2,h3,h4,p,a,span,strong,small{font-family:Arial,Helvetica,sans-serif!important}
+
+
+/* Cỡ chữ dễ đọc hơn trên màn hình desktop và mobile. */
+body{font-size:16px}
+.thanh-thong-bao{font-size:14px}
+.logo p{font-size:11px}
+.thanh-menu a{font-size:14px}
+.tien-ich a{font-size:15px}
+.tieu-de p{font-size:13px}
+.tieu-de h2{font-size:36px}
+.cot-chan-trang h3{font-size:16px}
+.cot-chan-trang p,.cot-chan-trang a{font-size:15px}
+.ban-quyen{font-size:14px}
+@media(max-width:768px){.thanh-menu a{font-size:12px}.tieu-de h2{font-size:30px}}
+
+
+/* Tăng kích thước chữ toàn trang theo góp ý. */
+body{font-size:18px}
+.thanh-thong-bao{font-size:16px;padding:14px}
+.logo a{font-size:40px}
+.logo p{font-size:13px}
+.tim-kiem input{font-size:16px}
+.thanh-menu a{font-size:16px}
+.tien-ich a{font-size:17px}
+.tieu-de p{font-size:15px}
+.tieu-de h2{font-size:40px}
+.cot-chan-trang h3{font-size:18px}
+.cot-chan-trang p,.cot-chan-trang a{font-size:17px}
+.ban-quyen{font-size:16px}
+@media(max-width:768px){.thanh-menu a{font-size:14px}.tieu-de h2{font-size:32px}}
+
+
+/* Mức chữ lớn hơn để dễ đọc ở màn hình desktop. */
+body{font-size:20px}
+.thanh-thong-bao{font-size:18px}
+.logo a{font-size:46px}
+.logo p{font-size:15px}
+.tim-kiem input{font-size:19px}
+.thanh-menu a{font-size:18px}
+.tien-ich a{font-size:19px}
+.tieu-de p{font-size:17px}
+.tieu-de h2{font-size:44px}
+.cot-chan-trang h3{font-size:20px}
+.cot-chan-trang p,.cot-chan-trang a{font-size:19px}
+.ban-quyen{font-size:18px}
+@media(max-width:768px){body{font-size:18px}.thanh-menu a{font-size:16px}.tieu-de h2{font-size:36px}.cot-chan-trang p,.cot-chan-trang a{font-size:17px}}
+
+
+/* Footer layout cleanup */
+.chan-trang{grid-template-columns:1.15fr 1fr 1fr;gap:clamp(32px,6vw,96px);align-items:start;padding:56px max(7%,calc((100vw - 1480px)/2));background:#f8edf1;border-top:1px solid #f0dfe5}
+.cot-chan-trang{min-width:0}
+.cot-chan-trang h2{font-size:34px;letter-spacing:2px;margin:0 0 8px}
+.cot-chan-trang h3{font-size:17px;letter-spacing:1px;margin:6px 0 18px}
+.cot-chan-trang p,.cot-chan-trang a{display:block!important;font-size:16px;line-height:1.8;margin:0 0 8px;color:#68585e}
+.cot-chan-trang a{width:max-content;max-width:100%;transition:color .2s}
+.cot-chan-trang a:hover{color:#b66f84}
+.ban-quyen{padding:17px;letter-spacing:.4px}
+@media(max-width:760px){.chan-trang{grid-template-columns:1fr;gap:28px;padding:40px 7%}.cot-chan-trang h3{margin-bottom:10px}.cot-chan-trang a{width:auto}}
+
+
+/* Chuẩn hóa khoảng cách chữ và dòng ở footer. */
+.chan-trang,.chan-trang *{letter-spacing:normal!important;word-spacing:normal!important}
+.chan-trang{column-gap:clamp(32px,6vw,96px);row-gap:28px}
+.cot-chan-trang{display:flex;flex-direction:column;align-items:flex-start;gap:9px}
+.cot-chan-trang h2,.cot-chan-trang h3,.cot-chan-trang p,.cot-chan-trang a{margin:0!important;padding:0;line-height:1.65!important}
+.cot-chan-trang h2{margin-bottom:2px!important}
+.cot-chan-trang h3{margin-bottom:5px!important}
+.cot-chan-trang a{display:block!important}
+

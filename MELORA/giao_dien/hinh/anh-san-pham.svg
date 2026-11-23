@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Hình minh họa sản phẩm MELORA">
+  <rect width="600" height="600" fill="#f8eef1"/>
+  <ellipse cx="300" cy="500" rx="150" ry="24" fill="#ead8de"/>
+  <rect x="228" y="177" width="144" height="290" rx="30" fill="#fff" stroke="#e3cbd3" stroke-width="5"/>
+  <rect x="252" y="132" width="96" height="56" rx="10" fill="#c58699"/>
+  <rect x="270" y="105" width="60" height="34" rx="8" fill="#9f6878"/>
+  <rect x="246" y="260" width="108" height="104" rx="5" fill="#f8eef1"/>
+  <text x="300" y="306" text-anchor="middle" fill="#805565" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">MELORA</text>
+  <text x="300" y="337" text-anchor="middle" fill="#9f6878" font-family="Arial, sans-serif" font-size="13" letter-spacing="2">BEAUTY CARE</text>
+</svg>

@@ -1,0 +1,4 @@
+/* Một họ font thống nhất cho toàn bộ MELORA. */
+/* Roboto theo phong cách giao diện mẫu; dùng font hệ thống nếu font web ngoại tuyến. */
+*, *::before, *::after { font-family: "Roboto", "Segoe UI", Arial, sans-serif !important; }
+button, input, select, textarea { font-family: "Roboto", "Segoe UI", Arial, sans-serif !important; }

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tài khoản thành viên | MELORA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="giao_dien/css/tong_quan.css">
+<link rel="stylesheet" href="giao_dien/css/trang_chu.css">
+<link rel="stylesheet" href="giao_dien/css/cua_hang.css">
+<link rel="stylesheet" href="giao_dien/css/chu_viet.css">
+<link rel="stylesheet" href="giao_dien/css/hoan_thien.css">
+</head>
+<body>
+<div class="thanh-thong-bao">MELORA MEMBER · Ưu đãi dành riêng cho bạn</div>
+<header class="dau-trang">
+<div class="logo">
+<a href="trang_chu.html">MELORA</a>
+<p>BEAUTY & SKINCARE</p>
+</div>
+<div class="tien-ich">
+<a href="san_pham.html">Mua sắm</a>
+<a href="gio_hang.html">Giỏ hàng <span id="soLuongGioHang">0</span>
+</a>
+</div>
+</header>
+<nav class="thanh-menu">
+<a href="trang_chu.html">TRANG CHỦ</a>
+<a href="san_pham.html">SẢN PHẨM</a>
+<a href="tai_khoan.html">TÀI KHOẢN</a>
+<a href="gio_hang.html">GIỎ HÀNG</a>
+</nav>
+<main class="page-shell account-page">
+<div class="page-heading">
+<p class="eyebrow">MELORA MEMBER</p>
+<h1>Đặc quyền dành cho bạn</h1>
+<p>Đăng ký thành viên để tích điểm và nhận những ưu đãi riêng từ MELORA.</p>
+</div>
+<div class="member-benefits">
+<div>
+<strong>01</strong>
+<h2>Tích điểm mỗi đơn hàng</h2>
+<p>Mỗi 10.000₫ chi tiêu tích lũy 1 điểm thành viên.</p>
+</div>
+<div>
+<strong>02</strong>
+<h2>Lưu thông tin giao hàng</h2>
+<p>Tiện hơn cho những lần mua sắm tiếp theo.</p>
+</div>
+<div>
+<strong>03</strong>
+<h2>Ưu đãi thành viên</h2>
+<p>Theo dõi điểm tích lũy và chương trình dành riêng cho bạn.</p>
+</div>
+</div>
+<section class="account-panel">
+<h2 id="accountTitle">Đăng nhập thành viên</h2>
+<p id="accountNotice" class="form-notice" aria-live="polite">
+</p>
+<form id="accountForm">
+<div id="registerFields" hidden>
+<label>Họ và tên<input name="name" autocomplete="name" required>
+</label>
+<label>Số điện thoại<input name="phone" type="tel" inputmode="numeric" autocomplete="tel" pattern="0[0-9]{9}" maxlength="10" title="Nhập đúng 10 chữ số, bắt đầu bằng số 0." required>
+</label>
+</div>
+<label>Email<input name="email" type="email" autocomplete="email" pattern="[A-Za-z0-9._%+-]+@gmail\.com" title="Vui lòng nhập địa chỉ Gmail có đuôi @gmail.com." required>
+</label>
+<label>Mật khẩu<input name="password" type="password" minlength="6" autocomplete="current-password" required>
+</label>
+<button class="primary-button" id="accountSubmit" type="submit">ĐĂNG NHẬP</button>
+</form>
+<button id="accountMode" class="text-button" type="button">Chưa có tài khoản? Đăng ký</button>
+<p class="demo-note">Tài khoản mẫu được lưu trên trình duyệt của thiết bị này.</p>
+</section>
+<section class="order-history-panel">
+<h2>Lịch sử mua hàng</h2>
+<div id="orderHistory">
+<p>Đăng nhập để xem đơn hàng của bạn.</p>
+</div>
+</section>
+</main>
+<footer class="ban-quyen">© 2026 MELORA · BEAUTY & SKINCARE</footer>
+<script src="giao_dien/js/chinh.js">
+</script>
+<script src="giao_dien/js/danh_gia_bien_tap.js"></script>
+</body>
+</html>

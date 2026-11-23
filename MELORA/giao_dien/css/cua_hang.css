@@ -1,0 +1,75 @@
+:root{--rose:#b66f84;--ink:#49343b;--muted:#81777a;--line:#eee3e6;--cream:#fffafb}body{color:var(--ink)}.page-shell{max-width:1200px;margin:auto;padding:64px 28px 84px}.page-heading{text-align:center;margin-bottom:36px}.page-heading h1{font:400 42px Arial,Helvetica,sans-serif;margin:8px 0;color:#674956}.page-heading>p:last-child{color:var(--muted)}.eyebrow{font-size:11px;letter-spacing:3px;color:var(--rose);text-transform:uppercase}.catalog-toolbar{display:flex;align-items:center;gap:12px;margin-bottom:22px;color:var(--muted);font-size:13px}.catalog-toolbar span{margin-right:auto}.catalog-toolbar select{padding:11px 14px;border:1px solid var(--line);background:white;color:var(--ink)}.danh-sach-san-pham{grid-template-columns:repeat(4,minmax(0,1fr))}.the-san-pham{border-color:var(--line);border-radius:3px;overflow:hidden}.hinh-san-pham{display:block}.gia-san-pham del{font-size:12px;color:#aaa;font-weight:400;margin-left:7px}.empty-state{text-align:center;padding:55px 20px;color:var(--muted);grid-column:1/-1}.empty-state>span{font-size:42px;color:var(--rose)}.empty-state h2{font:400 28px Arial,Helvetica,sans-serif;color:var(--ink);margin:12px}.primary-button{display:inline-block;border:0;background:var(--rose);color:white;padding:15px 25px;letter-spacing:1px;cursor:pointer;text-align:center}.empty-state .primary-button{margin-top:15px}.detail-layout{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.detail-image img{width:100%;max-height:560px;object-fit:contain;background:#fbf5f6}.detail-copy h1{font:400 36px Arial,Helvetica,sans-serif;line-height:1.3;margin:14px 0}.detail-description,.stock,.shipping-note{line-height:1.8;color:var(--muted);margin:22px 0}.detail-copy .gia-san-pham{font-size:23px}.detail-copy button{min-width:220px}.cart-layout{display:grid;grid-template-columns:1.6fr 1fr;gap:45px;align-items:start}.cart-row{display:grid;grid-template-columns:100px 1fr auto;gap:20px;padding:18px 0;border-bottom:1px solid var(--line);align-items:center}.cart-row img{width:100px;height:100px;object-fit:cover;background:#fbf5f6}.cart-info{display:grid;gap:10px}.cart-info strong{font-weight:500;line-height:1.5}.cart-info>span,.cart-row>b{color:var(--rose)}.quantity{display:flex;align-items:center;gap:12px}.quantity button{border:1px solid var(--line);background:white;padding:5px 10px;color:var(--ink);cursor:pointer}.quantity .remove{border:0;color:var(--muted);margin-left:8px}.order-summary{background:var(--cream);padding:25px}.order-summary h2{font:400 24px Arial,Helvetica,sans-serif;margin-bottom:22px}.order-summary>p{display:flex;justify-content:space-between;margin:16px 0;color:var(--muted)}.order-summary strong{color:var(--ink)}.order-summary .summary-total{font-size:17px}.order-summary .primary-button{width:100%;margin-top:10px}.continue-shopping{display:block;text-align:center;color:var(--rose);margin-top:18px;font-size:13px}.toast{position:fixed;z-index:5;bottom:24px;left:50%;transform:translate(-50%,20px);opacity:0;background:#49343b;color:white;padding:13px 22px;border-radius:30px;transition:.2s;pointer-events:none}.toast.show{opacity:1;transform:translate(-50%,0)}@media(max-width:850px){.danh-sach-san-pham{grid-template-columns:repeat(2,minmax(0,1fr))}.cart-layout{grid-template-columns:1fr}.detail-layout{gap:28px}}@media(max-width:560px){.page-shell{padding:42px 16px 60px}.page-heading h1{font-size:34px}.catalog-toolbar{flex-wrap:wrap}.catalog-toolbar span{width:100%}.catalog-toolbar select{flex:1;min-width:0}.detail-layout{grid-template-columns:1fr}.detail-copy h1{font-size:29px}.cart-row{grid-template-columns:72px 1fr;gap:13px}.cart-row img{width:72px;height:82px}.cart-row>b{grid-column:2}.thanh-menu{gap:15px;padding:14px}.thanh-menu a{font-size:10px}}
+
+/* Font phổ thông, hiển thị dấu tiếng Việt nhất quán. */
+.page-heading h1,.empty-state h2,.detail-copy h1,.order-summary h2{font-family:Arial,Helvetica,sans-serif!important}
+
+
+/* Tăng cỡ chữ trên danh sách, chi tiết và giỏ hàng. */
+.page-heading>p:last-child{font-size:16px}
+.eyebrow{font-size:13px}
+.catalog-toolbar{font-size:15px}
+.gia-san-pham del{font-size:14px}
+.detail-description,.stock,.shipping-note{font-size:16px}
+.cart-info strong,.cart-info>span,.cart-row>b{font-size:16px}
+.order-summary>p{font-size:16px}
+.continue-shopping{font-size:15px}
+.primary-button{font-size:15px}
+
+
+/* Chữ lớn hơn cho trang danh sách, chi tiết và giỏ hàng. */
+.page-heading h1{font-size:48px}
+.page-heading>p:last-child,.catalog-toolbar{font-size:18px}
+.eyebrow{font-size:15px}
+.detail-copy h1{font-size:42px}
+.detail-description,.stock,.shipping-note{font-size:18px}
+.detail-copy .gia-san-pham{font-size:27px}
+.cart-info strong,.cart-info>span,.cart-row>b,.order-summary>p{font-size:18px}
+.order-summary h2{font-size:28px}
+.primary-button{font-size:17px}
+.continue-shopping{font-size:17px}
+
+
+/* Thành viên và thanh toán */
+.account-page{max-width:1040px}.member-benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:0 0 38px}.member-benefits>div{padding:24px;background:#fffafb;border:1px solid #eee3e6}.member-benefits strong{color:#b66f84;font-size:14px;letter-spacing:2px}.member-benefits h2{font-size:20px;margin:14px 0 8px;color:#49343b}.member-benefits p,.demo-note{color:#81777a;font-size:14px;line-height:1.7}.account-panel{max-width:540px;margin:0 auto;padding:32px;background:#fffafb;border:1px solid #eee3e6}.account-panel h2,.checkout-form h2{font-size:25px;margin:0 0 22px}.account-panel form,.checkout-form{display:grid;gap:17px}.account-panel label,.checkout-form label{display:grid;gap:8px;font-size:16px;color:#49343b}.account-panel input,.checkout-form input,.checkout-form textarea{width:100%;font:inherit;padding:13px 14px;border:1px solid #e3d4d9;border-radius:2px;background:#fff}.checkout-form textarea{resize:vertical}.account-panel form .primary-button,.checkout-form>.primary-button{width:100%;margin-top:5px}.text-button{display:block;margin:18px auto 0;border:0;background:none;color:#9f6878;text-decoration:underline;cursor:pointer;font:inherit}.form-notice{min-height:22px;color:#a3425d}.member-card{text-align:center;padding:15px 0}.member-card h2{margin:15px}.member-card>strong{display:inline-block;background:#f8e9ee;padding:12px 20px;color:#805565}.checkout-layout{display:grid;grid-template-columns:1.4fr 1fr;gap:38px;align-items:start}.checkout-form{padding:28px;border:1px solid #eee3e6}.checkout-form h2:not(:first-child){margin:16px 0 0}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.radio-option{display:flex!important;grid-template-columns:none!important;align-items:center;gap:12px!important;padding:15px;background:#fffafb}.radio-option input{width:auto}.checkout-item,.checkout-summary-line{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid #eee3e6;font-size:15px;line-height:1.5}.checkout-item strong{white-space:nowrap;color:#49343b}.member-prompt{font-size:14px!important;line-height:1.6}.member-prompt a{color:#9f6878;text-decoration:underline}.account-panel .demo-note{margin:18px 0 0;text-align:center}.checkout-form .demo-note{font-size:13px;margin:0}@media(max-width:760px){.member-benefits{grid-template-columns:1fr}.checkout-layout{grid-template-columns:1fr}.account-panel{padding:22px}.form-row{grid-template-columns:1fr}}
+
+
+/* Cỡ chữ lớn hơn cho tài khoản, cửa hàng và thanh toán. */
+.page-heading h1{font-size:52px}
+.page-heading>p:last-child,.catalog-toolbar{font-size:20px}
+.eyebrow{font-size:17px}
+.detail-copy h1{font-size:46px}
+.detail-description,.stock,.shipping-note{font-size:20px}
+.detail-copy .gia-san-pham{font-size:30px}
+.cart-info strong,.cart-info>span,.cart-row>b,.order-summary>p{font-size:20px}
+.order-summary h2,.account-panel h2,.checkout-form h2{font-size:30px}
+.account-panel label,.checkout-form label{font-size:19px}
+.account-panel input,.checkout-form input,.checkout-form textarea{font-size:19px;padding:15px}
+.primary-button{font-size:19px;padding:17px 28px}
+.continue-shopping,.member-prompt{font-size:19px!important}
+.checkout-item{font-size:18px}
+.demo-note{font-size:16px}
+@media(max-width:760px){.page-heading h1{font-size:40px}.detail-copy h1{font-size:34px}.account-panel label,.checkout-form label{font-size:17px}.primary-button{font-size:17px}}
+
+
+/* Tính năng danh sách yêu thích, mã ưu đãi và lịch sử đơn. */
+.the-san-pham{position:relative}.favorite-button{position:absolute;z-index:1;top:12px;right:12px;width:42px;height:42px;border:0;border-radius:50%;background:rgba(255,255,255,.95);color:#9f6878;font-size:26px;line-height:1;cursor:pointer;box-shadow:0 2px 10px #49343b20}.favorite-button.is-favorite{color:#c34f70}.coupon-box{margin:18px 0;padding:15px;background:#fffafb;border:1px solid #eee3e6}.coupon-box label{display:block;margin-bottom:8px;font-weight:600}.coupon-box>div{display:flex;gap:8px}.coupon-box input{min-width:0;flex:1;padding:11px;border:1px solid #e3d4d9;font:inherit}.coupon-box button{padding:10px 14px;border:0;background:#9f6878;color:#fff;cursor:pointer}.coupon-box small{display:block;margin-top:8px;color:#81777a}.coupon-box .coupon-error{color:#b3445c}.order-history-panel{max-width:900px;margin:44px auto 0;padding:28px;border:1px solid #eee3e6}.order-history-panel h2{font-size:28px;margin-bottom:18px}.history-row{display:flex;justify-content:space-between;gap:20px;padding:16px 0;border-bottom:1px solid #eee3e6}.history-row p,.history-row small{display:block;color:#81777a;margin-top:7px}@media(max-width:600px){.history-row{font-size:15px}.favorite-button{width:36px;height:36px;font-size:22px}}
+
+
+/* Chinh sach doi tra */
+.policy-page{max-width:1100px}.policy-intro{max-width:900px;margin:0 auto 28px;padding:18px 22px;background:#fbf2f5;border-left:4px solid #b66f84;color:#68585e;line-height:1.7}.policy-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.policy-card{padding:28px;background:white;border:1px solid #eee3e6}.policy-number{color:#b66f84;font-size:14px;letter-spacing:2px}.policy-card h2{margin:10px 0 16px;font-size:24px;color:#49343b}.policy-card ul,.policy-card ol{padding-left:22px;margin:0;color:#68585e;line-height:1.8}.policy-card li{padding-left:4px;margin:0 0 9px}.policy-card a,.legal-note a{color:#9f6878;text-decoration:underline}.policy-contact{text-align:center;margin:38px auto 24px;padding:32px;background:#fffafb}.policy-contact h2{font-size:28px;margin:0 0 8px}.policy-contact p,.legal-note{color:#81777a;line-height:1.7}.policy-contact .primary-button{margin-top:12px}.legal-note{text-align:center;font-size:15px}@media(max-width:760px){.policy-page{padding:40px 16px}.policy-grid{grid-template-columns:1fr}.policy-card{padding:22px}.policy-card h2{font-size:21px}.policy-contact{padding:24px 16px}}
+
+
+/* Trang gioi thieu MELORA */
+.about-hero{display:grid;grid-template-columns:1fr 1fr;min-height:480px;background:#f8f0ed;align-items:center}.about-hero-copy{max-width:640px;padding:70px clamp(28px,7vw,110px);justify-self:end}.about-hero-copy h1{font-size:clamp(42px,4.5vw,64px);line-height:1.16;color:#59434a;margin:18px 0}.about-hero-copy>p:not(.eyebrow){font-size:19px;color:#68585e;line-height:1.8;margin-bottom:28px}.about-hero-image{height:480px}.about-hero-image img{height:100%;width:100%;object-fit:cover}.about-story{max-width:850px;text-align:center}.about-story h2,.about-values .page-heading h2{font-size:38px;line-height:1.3;color:#49343b;margin:12px auto 20px}.about-story>p:not(.eyebrow){font-size:19px;line-height:1.9;color:#68585e;margin:0 auto 16px}.about-values{background:#fffafb}.about-values .page-heading{max-width:760px;margin:0 auto 32px}.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.value-grid article{padding:26px;background:white;border:1px solid #eee3e6}.value-grid span{color:#b66f84;font-size:14px;letter-spacing:2px}.value-grid h3{font-size:22px;margin:13px 0;color:#49343b}.value-grid p{font-size:17px;line-height:1.8;color:#81777a}.about-cta{text-align:center;padding:62px 24px 76px}.about-cta h2{font-size:34px;margin:0 0 12px}.about-cta p{font-size:18px;color:#81777a;margin-bottom:22px}.about-read-more{margin-top:22px}@media(max-width:760px){.about-hero{grid-template-columns:1fr}.about-hero-copy{padding:48px 24px}.about-hero-copy h1{font-size:42px}.about-hero-image{height:300px}.about-story h2,.about-values .page-heading h2{font-size:30px}.about-story>p:not(.eyebrow){font-size:17px}.value-grid{grid-template-columns:1fr}.about-cta h2{font-size:28px}}
+
+
+/* Gioi thieu dat sau cac cot footer tren trang chu */
+.chan-trang>.gioi-thieu{grid-column:1/-1;width:100%;max-width:none;padding:30px 7% 18px;margin:14px 0 0;border-top:1px solid #ead8de;text-align:center}
+.chan-trang>.gioi-thieu h2{font-size:28px;margin:8px 0 12px;color:#674956}
+.chan-trang>.gioi-thieu p{max-width:850px;margin:0 auto;font-size:16px;line-height:1.7;color:#68585e}
+@media(max-width:760px){.chan-trang>.gioi-thieu{padding:24px 0 8px}.chan-trang>.gioi-thieu h2{font-size:24px}}
+
+
+/* Danh gia va nhan xet san pham */
+.card-rating{display:flex;align-items:center;gap:8px;min-height:24px;margin-top:8px;color:#807177;font-size:14px}.review-stars{color:#c58b4c;letter-spacing:1px;font-size:17px}.review-empty{font-size:14px;color:#8a7f83}.review-section{max-width:1000px;margin:0 auto;padding:30px 28px 78px}.review-heading{text-align:center;margin:0 auto 24px}.review-heading h2{font-size:34px;color:#49343b;margin:8px 0}.review-heading>p:last-child{color:#81777a}.review-list{display:grid;gap:14px}.review-item{padding:18px 20px;background:#fffafb;border:1px solid #eee3e6}.review-item>div{display:flex;justify-content:space-between;align-items:center;gap:12px}.review-item small{display:block;margin-top:4px;color:#95898d}.review-item p{font-size:16px;line-height:1.7;color:#594d52;margin:12px 0 0;white-space:pre-wrap}.review-form{margin-top:28px;padding:24px;background:#fffafb;border:1px solid #eee3e6;display:grid;gap:15px}.review-form h3{font-size:23px;margin:0 0 4px}.review-form label{display:grid;gap:8px;font-size:16px}.review-form input,.review-form select,.review-form textarea{width:100%;padding:12px;border:1px solid #e3d4d9;background:white;font:inherit}.review-form textarea{resize:vertical}.review-form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.review-form .primary-button{justify-self:start}@media(max-width:600px){.review-section{padding:22px 16px 52px}.review-heading h2{font-size:28px}.review-form{padding:18px}.review-form-row{grid-template-columns:1fr}.review-item>div{align-items:flex-start;flex-direction:column}}
+

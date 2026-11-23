@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fbf3f5">
+<meta name="description" content="MELORA — khám phá sản phẩm chăm sóc da và làm đẹp được tuyển chọn.">
+<title>MELORA — Beauty & Skincare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="giao_dien/css/tong_quan.css">
+<link rel="stylesheet" href="giao_dien/css/trang_chu.css">
+<link rel="stylesheet" href="giao_dien/css/cua_hang.css">
+<link rel="stylesheet" href="giao_dien/css/chu_viet.css">
+<link rel="stylesheet" href="giao_dien/css/hoan_thien.css">
+</head>
+<body>
+<div class="thanh-thong-bao">MELORA · Chăm sóc vẻ đẹp theo cách của bạn · Miễn phí giao hàng từ 500.000₫</div>
+<header class="dau-trang">
+<div class="logo">
+<a href="trang_chu.html">MELORA</a>
+<p>BEAUTY & SKINCARE</p>
+</div>
+<div class="tim-kiem">
+<input id="oTimKiem" type="search" placeholder="Tìm sản phẩm, thương hiệu...">
+<button onclick="timKiemSanPham()" aria-label="Tìm kiếm">⌕</button>
+</div>
+<div class="tien-ich">
+<a href="tai_khoan.html">Tài khoản</a>
+<a href="gio_hang.html">♡ <span>Giỏ hàng</span> <span id="soLuongGioHang">0</span>
+</a>
+</div>
+</header>
+<nav class="thanh-menu">
+<a href="trang_chu.html">TRANG CHỦ</a>
+<a href="san_pham.html">TẤT CẢ SẢN PHẨM</a>
+<a href="yeu_thich.html">YÊU THÍCH</a>
+<a href="san_pham.html?danh_muc=Sữa rửa mặt">LÀM SẠCH</a>
+<a href="san_pham.html?danh_muc=Serum">DƯỠNG DA</a>
+<a href="san_pham.html?danh_muc=Trang%20%C4%91i%E1%BB%83m">TRANG ĐIỂM</a>
+<a href="san_pham.html?danh_muc=Chống nắng">CHỐNG NẮNG</a>
+<a href="#lien-he">LIÊN HỆ</a>
+<a href="gioi_thieu.html">TÌM HIỂU MELORA</a>
+</nav>
+<aside class="brand-quote" aria-label="Thông điệp MELORA">
+<p>“Làn da đẹp bắt đầu từ những dịu dàng bạn dành cho chính mình.”</p>
+<span>MELORA</span>
+</aside>
+<main>
+<section class="banner">
+<div class="noi-dung-banner">
+<p class="dong-chu-nho">BEAUTY IS YOUR OWN STORY</p>
+<h1>Vẻ đẹp bắt đầu<br>từ cách bạn yêu mình</h1>
+<p>Những sản phẩm chăm sóc da được tuyển chọn để mỗi ngày, bạn tự tin là chính mình.</p>
+<a href="san_pham.html" class="nut-mua-ngay">KHÁM PHÁ BỘ SƯU TẬP <span>↗</span>
+</a>
+<div class="hero-note">Tuyển chọn có tâm <span>·</span> Chăm sóc dịu dàng</div>
+</div>
+<div class="hinh-banner">
+<img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=1200&q=85" alt="Sản phẩm chăm sóc da trong không gian tối giản">
+</div>
+</section>
+<section class="service-strip" aria-label="Quyền lợi khi mua sắm tại MELORA">
+<article><span class="service-icon">01</span><div><h3>Chọn món hợp với bạn</h3><p>Lọc sản phẩm theo nhu cầu, thương hiệu và mức giá.</p></div></article>
+<article><span class="service-icon">02</span><div><h3>Tích điểm thành viên</h3><p>Mỗi đơn hàng góp điểm để đổi ưu đãi cho lần mua sau.</p></div></article>
+<article><span class="service-icon">03</span><div><h3>An tâm khi đặt hàng</h3><p>Nhập địa chỉ giao hàng và xem rõ phí trước khi xác nhận.</p></div></article>
+</section>
+<section class="khu-vuc-danh-muc">
+<div class="tieu-de">
+<p>KHÁM PHÁ MELORA</p>
+<h2>Chăm sóc theo nhu cầu</h2>
+</div>
+<div class="danh-sach-danh-muc">
+<a href="san_pham.html?danh_muc=Sữa rửa mặt" class="the-danh-muc">
+<img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80" alt="Sữa rửa mặt">
+<h3>Làm sạch <span>↗</span>
+</h3>
+</a>
+<a href="san_pham.html?danh_muc=Serum" class="the-danh-muc">
+<img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?w=600&q=80" alt="Dưỡng da">
+<h3>Dưỡng da <span>↗</span>
+</h3>
+</a>
+<a href="san_pham.html?danh_muc=Chống nắng" class="the-danh-muc">
+<img src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=600&q=80" alt="Chống nắng">
+<h3>Chống nắng <span>↗</span>
+</h3>
+</a>
+<a href="san_pham.html?danh_muc=Tẩy trang" class="the-danh-muc">
+<img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&q=80" alt="Tẩy trang">
+<h3>Tẩy trang <span>↗</span>
+</h3>
+</a>
+<a href="san_pham.html?danh_muc=Trang%20%C4%91i%E1%BB%83m" class="the-danh-muc">
+<img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80" alt="Trang điểm">
+<h3>Trang điểm <span>↗</span></h3>
+</a>
+</div>
+</section>
+<section class="khu-vuc-san-pham">
+<div class="tieu-de">
+<p>ĐƯỢC YÊU THÍCH TẠI MELORA</p>
+<h2>Lựa chọn nổi bật</h2>
+</div>
+<div class="danh-sach-san-pham" id="danhSachSanPham">
+<p>Đang tải sản phẩm...</p>
+</div>
+<div class="xem-tat-ca">
+<a href="san_pham.html">XEM TẤT CẢ SẢN PHẨM ↗</a>
+</div>
+</section>
+<section class="banner-gioi-thieu">
+<div>
+<p>A LITTLE CARE GOES A LONG WAY</p>
+<h2>Dành một chút dịu dàng<br>cho chính mình hôm nay.</h2>
+<a href="san_pham.html">TÌM MÓN YÊU THÍCH</a>
+</div>
+</section>
+
+</main>
+<footer class="chan-trang" id="lien-he">
+<div class="cot-chan-trang">
+<h2>MELORA</h2>
+<p>BEAUTY & SKINCARE</p>
+<p>Vẻ đẹp của bạn, niềm cảm hứng của chúng tôi.</p>
+</div>
+<div class="cot-chan-trang">
+<h3>HỖ TRỢ KHÁCH HÀNG</h3>
+<a href="san_pham.html">Hướng dẫn mua hàng</a>
+<a href="gioi_thieu.html">Giới thiệu MELORA</a>
+<a href="chinh_sach_doi_tra.html">Chính sách đổi trả</a>
+<a href="san_pham.html">Chính sách vận chuyển</a>
+</div>
+<div class="cot-chan-trang">
+<h3>LIÊN HỆ</h3>
+<p>Email: HelloMelora@gmail.com</p>
+<p>Hotline: 0812 641 861</p>
+<p>Thành phố Hồ Chí Minh</p>
+</div>
+<section class="gioi-thieu">
+<p class="eyebrow">CHÀO MỪNG ĐẾN MELORA</p>
+<h2>Vẻ đẹp của bạn, theo cách của bạn.</h2>
+<p>MELORA là không gian mua sắm mỹ phẩm trực tuyến với những lựa chọn chăm sóc da và làm đẹp được tuyển chọn. Chúng tôi tin rằng chăm sóc bản thân có thể bắt đầu từ những điều nhỏ bé, gần gũi mỗi ngày.</p>
+<a class="primary-button about-read-more" href="gioi_thieu.html">TÌM HIỂU VỀ MELORA</a>
+</section>
+</footer>
+<div class="ban-quyen">© 2026 MELORA · BEAUTY & SKINCARE</div>
+<script src="giao_dien/js/chinh.js">
+</script>
+<script src="giao_dien/js/danh_gia_bien_tap.js"></script>
+</body>
+</html>

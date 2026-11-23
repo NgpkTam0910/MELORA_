@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sản phẩm | MELORA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="giao_dien/css/tong_quan.css">
+<link rel="stylesheet" href="giao_dien/css/trang_chu.css">
+<link rel="stylesheet" href="giao_dien/css/cua_hang.css">
+<link rel="stylesheet" href="giao_dien/css/chu_viet.css">
+<link rel="stylesheet" href="giao_dien/css/hoan_thien.css">
+</head>
+<body>
+<div class="thanh-thong-bao">MELORA · Chăm sóc vẻ đẹp theo cách của bạn</div>
+<header class="dau-trang">
+<div class="logo">
+<a href="trang_chu.html">MELORA</a>
+<p>BEAUTY & SKINCARE</p>
+</div>
+<div class="tim-kiem">
+<input id="oTimKiem" placeholder="Tìm sản phẩm, thương hiệu...">
+<button onclick="timKiemSanPham()" aria-label="Tìm kiếm">⌕</button>
+</div>
+<div class="tien-ich">
+<a href="tai_khoan.html">Tài khoản</a>
+<a href="gio_hang.html">♡ <span>Giỏ hàng</span> <span id="soLuongGioHang">0</span>
+</a>
+</div>
+</header>
+<nav class="thanh-menu">
+<a href="trang_chu.html">TRANG CHỦ</a>
+<a href="san_pham.html">TẤT CẢ SẢN PHẨM</a>
+<a href="yeu_thich.html">YÊU THÍCH</a>
+<a href="san_pham.html?danh_muc=Chống nắng">CHỐNG NẮNG</a>
+<a href="san_pham.html?danh_muc=Serum">SERUM</a>
+<a href="san_pham.html?danh_muc=Trang%20%C4%91i%E1%BB%83m">TRANG ĐIỂM</a>
+<a href="trang_chu.html#lien-he">LIÊN HỆ</a>
+<a href="gioi_thieu.html">TÌM HIỂU MELORA</a>
+</nav>
+<main class="catalog page-shell">
+<div class="page-heading">
+<p class="eyebrow">MELORA BEAUTY STORE</p>
+<h1>Sản phẩm</h1>
+<p>Những lựa chọn chăm sóc da được tuyển chọn cho bạn.</p>
+</div>
+<div class="catalog-toolbar">
+<span id="soKetQua">
+</span>
+<select id="locDanhMuc" aria-label="Lọc danh mục">
+</select>
+<select id="locThuongHieu" aria-label="Lọc thương hiệu">
+<option value="">Tất cả thương hiệu</option>
+</select>
+<select id="locGia" aria-label="Lọc theo mức giá">
+<option value="">Mọi mức giá</option>
+<option value="0-200000">Dưới 200.000₫</option>
+<option value="200000-500000">200.000₫ – 500.000₫</option>
+<option value="500000-1000000">500.000₫ – 1.000.000₫</option>
+<option value="1000000-">Trên 1.000.000₫</option>
+</select>
+<select id="sapXep" aria-label="Sắp xếp">
+<option value="mac-dinh">Sắp xếp: nổi bật</option>
+<option value="gia-tang">Giá thấp đến cao</option>
+<option value="gia-giam">Giá cao đến thấp</option>
+</select>
+</div>
+<section id="danhSachTatCa" class="danh-sach-san-pham">
+</section>
+</main>
+<section id="chiTietSanPham" class="page-shell detail-layout">
+</section>
+<footer class="chan-trang" id="lien-he">
+<div class="cot-chan-trang">
+<h2>MELORA</h2>
+<p>Vẻ đẹp của bạn, niềm cảm hứng của chúng tôi.</p>
+</div>
+<div class="cot-chan-trang">
+<h3>HỖ TRỢ</h3>
+<a href="san_pham.html">Hướng dẫn mua hàng</a>
+<a href="gioi_thieu.html">Giới thiệu MELORA</a>
+<a href="chinh_sach_doi_tra.html">Chính sách đổi trả</a>
+</div>
+<div class="cot-chan-trang">
+<h3>LIÊN HỆ</h3>
+<p>hello@melora.vn · 0812 641 861</p>
+<p>Thành phố Hồ Chí Minh</p>
+</div>
+</footer>
+<script src="giao_dien/js/chinh.js">
+</script>
+<script src="giao_dien/js/danh_gia_bien_tap.js"></script>
+</body>
+</html>
